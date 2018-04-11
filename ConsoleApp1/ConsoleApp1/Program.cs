@@ -10,7 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.Write("hello");
+            Student s = new Student();
+            s.name = "mekong";
+            Console.Write(s.name);
         }
     }
 }
