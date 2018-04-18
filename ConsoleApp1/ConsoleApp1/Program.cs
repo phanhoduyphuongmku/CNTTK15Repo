@@ -13,6 +13,7 @@ namespace ConsoleApp1
             Student s = new Student();
             s.name = "mekong";
             Console.Write(s.name);
+            // them code
         }
     }
 }
